@@ -1,0 +1,30 @@
+{
+  "short_name": "Voting",
+  "name": "Voting in Express",
+  "description": "Site for voting in the Republic of Dagestan",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/ico/icon512.png",
+      "type": "image/png",
+      "sizes": "144x144 145x145 192x192 512x512",
+      "purpose": "any"
+    }
+  ],
+  "related_applications": [{
+    "platform": "web"
+  }, {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+  }],
+  "scope": "/",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

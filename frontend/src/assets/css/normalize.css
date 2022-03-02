@@ -1,0 +1,142 @@
+/* .Mui-selected {
+  background-color: rgb(39, 44, 52)!important;
+} */
+* {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+h1 {
+  font-size: 3.3125rem;
+  line-height: 1.15em;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+#copy span {
+    vertical-align: middle;
+}
+
+#copy svg {
+    vertical-align: middle;
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+
+img[id='logo'] {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.read-more-button {
+  cursor: pointer;
+  color: #4e73af;
+}
+
+@media(min-height: 800px) {
+  #auth_section {
+    padding-top: 120px;
+  }
+}
+
+
+.mb-style-3 blockquote{
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow:
+      inset 0 2px 0 rgba(78, 115, 175, 0.7),
+      -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+.mb-style-3 blockquote p {
+  font-family: 'Alegreya', serif;
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  line-height: 40px;
+  font-style: italic;
+  text-indent: 100px;
+  position: relative;
+}
+.mb-style-3 blockquote p:before{
+  content: '\201C';
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  font-size: 150px;
+  top: 0px;
+  left: -105px;
+  color: #4e73af;
+  text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+}
+.mb-style-3 .mb-attribution {
+  text-align: right;
+  padding: 30px 100px 20px 20px;
+  position: relative;
+}
+.mb-style-3 .mb-thumb {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: url('https://roscongress.org/upload/resize_cache/iblock/a9b/289_289_2/x111426.htm.jpg.pagespeed.ic.lIneRzyLh8.webp') no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  box-shadow: 0 0 10px #000;
+}
+.mb-style-3 .mb-author{
+  font-family: 'Alegreya SC', serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 0 20px #000;
+}
+
+.mb-style-3 cite a{
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.mb-style-3 cite a:hover{
+  color: #4e73af;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+
+.awssld {
+  --organic-arrow-height: 30px;
+  --loader-bar-color: #4e73af;
+  --loader-bar-height: 4px;
+  --slider-transition-duration: 500ms;
+  --organic-arrow-color: #4e73af;
+  --organic-arrow-thickness: 3px;
+}
+
+.bannergroup {
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+}
+
+.bannergroup .banneritem {
+    margin: 10px 5px;
+}
+.bannergroup img {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 3px #000;
+}

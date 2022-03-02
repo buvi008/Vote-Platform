@@ -1,0 +1,22 @@
+/* eslint-disable */
+const IS_LOGIN = 'IS_LOGIN';
+const LOGOUT = 'LOGOUT';
+const LOGIN = 'LOGIN';
+
+const GET_PROJECTS = 'GET_PROJECTS';
+const ADD_PROJECT = 'ADD_PROJECT';
+const ADD_VARIANT = 'ADD_VARIANT';
+const ADD_LIKE = 'ADD_LIKE';
+
+const SELECT_CITY = 'SELECT_CITY';
+
+export {
+  IS_LOGIN,
+  LOGOUT,
+  LOGIN,
+  GET_PROJECTS,
+  ADD_PROJECT,
+  ADD_VARIANT,
+  ADD_LIKE,
+  SELECT_CITY,
+}
